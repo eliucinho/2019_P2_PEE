@@ -37,7 +37,7 @@ public class programaGenericoNotasAlumnos {
         Scanner scan = new Scanner(System.in);
         //Recorrer un arreglo
         for (int i = 0; i < listaAlumnos.length; i++) {
-            System.out.println("¿QUien es el alumno " + i + "?");
+            System.out.println("¿Quien es el alumno " + i + "?");
             String nombre = scan.next();
             listaAlumnos[i] = nombre;
         }
