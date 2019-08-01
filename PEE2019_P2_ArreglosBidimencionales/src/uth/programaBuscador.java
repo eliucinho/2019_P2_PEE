@@ -20,13 +20,13 @@ public class programaBuscador {
                 = new String[3][2];
 
         arregloBidimensional[0][0] = "a";
-        arregloBidimensional[0][1] = "b";
+        arregloBidimensional[0][1] = "hola";
         arregloBidimensional[1][0] = "c";
-        arregloBidimensional[1][1] = "d";
+        arregloBidimensional[1][1] = "mundo";
         arregloBidimensional[2][0] = "e";
         arregloBidimensional[2][1] = "f";
 
-        buscar(arregloBidimensional, "c");
+        buscar(arregloBidimensional, "mundo");
     }
 
     public static void buscar(String[][] arregloBidimensional,
